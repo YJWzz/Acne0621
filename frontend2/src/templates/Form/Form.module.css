@@ -1,0 +1,107 @@
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px 7% 270px 7%;
+  
+}
+
+.bodytitle {
+  color: #4CAF50;
+  font-size: 2rem;
+  font-weight: bold;
+  position: left !important;
+  /* margin-right: 0 !important; */
+  padding: 0 !important;
+  margin-right: auto; /* ⬅️ 這一行讓它跑到最左邊 */
+  /* margin-bottom: 20px; */
+}
+
+.form {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.label2 {
+  font-weight: bold;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  position:relative;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 50%;
+  margin-top: 0px;
+}
+
+.button:hover {
+  background-color: #45A049;
+}
+
+.previewContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+  /* width:33%; */
+}
+
+.previewImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  object-fit: cover;
+}
+
+.linkSection {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.infoLink {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  display: inline-block;
+}
+
+.infoLink:hover {
+  background-color: #45A049;
+}

@@ -1,0 +1,105 @@
+
+
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  padding: 50px 7% 170px 7%;
+}
+
+.title {
+  color: #4CAF50;
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin: 2rem 0rem 2rem 0rem;
+  text-align: center;
+}
+
+.carouselItem {
+  min-height: 400px; /* 或固定為 height: 400px */
+  width: 100%;
+  padding: 20px 10% 20px 10%;
+  flex-direction: column;
+  justify-content: right;
+  border-radius: 20px;
+  background-color: #d4f5dc;
+}
+
+/* 控制按鈕 */
+.controlButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.arrowButton {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.arrowButton:hover {
+  background-color: #388E3C;
+}
+
+/* 滑動區 */
+.scrollWrapper {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+}
+
+.section {
+  flex: 0 0 80%;
+  min-width: 320px;
+  scroll-snap-align: start;
+  background-color: white;
+  padding: 20px;
+  margin-right: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  scroll-snap-stop: always;
+}
+
+.sectionTitle {
+  color: #4CAF50;
+  font-size: 1.5rem;
+  margin: 1.5rem 0rem;
+}
+
+.list {
+  padding-left: 20px;
+}
+
+.listItem {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.button {
+  display: block;
+  margin: 2rem auto 0;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45A049;
+}
